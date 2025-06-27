@@ -7,8 +7,9 @@ CORS(app)
 
 # In-memory task list
 tasks = [
-    {"id": str(uuid.uuid4()), "title": "Task One", "status": "open"},
-    {"id": str(uuid.uuid4()), "title": "Task Two", "status": "completed"}
+    {"id": str(uuid.uuid4()), "title": "Buy groceries", "status": "open"},
+    {"id": str(uuid.uuid4()), "title": "Do laundry", "status": "in_progress"},
+    {"id": str(uuid.uuid4()), "title": "Read book", "status": "completed"}
 ]
 
 # Get all tasks
